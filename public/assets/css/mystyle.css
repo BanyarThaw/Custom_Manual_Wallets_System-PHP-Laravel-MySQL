@@ -1,0 +1,144 @@
+#page-topbar {
+    z-index: 98 !important;
+}
+
+.navbar-menu {
+    z-index: 98 !important;
+}
+
+.delete_button {
+    color:white;
+}
+
+.delete_button:hover {
+    color: white;
+}
+
+.page-item.active .page-link {
+    border: none;
+    background-color: #212529!important;
+}
+
+.custom_button {
+    font-size: 1em!important;
+}
+
+#rejected-logo {
+    color: red !important;
+}
+
+#accepted-logo {
+    color: green !important;
+}
+
+.home_image {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.privacy_policy {
+    position: absolute; 
+    top:  15;right: 15;
+    padding: 15px;
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.payment_receipts {
+    cursor: pointer;
+}
+
+.payment_photo {
+    width: 100%;
+}
+
+.contact_title {
+    margin-bottom: 5px !important;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	padding-top: 15px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: scroll;  /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    z-index: 99 !important;
+}
+
+/* Modal Content */
+.modal-content {
+	background-color: #141111;
+	z-index: 99 !important;
+    margin-top: auto;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 25%; /* change it in mobile views */
+    border-radius: 20px;
+}
+
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.photo_design {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+@media (min-width: 551px) and (max-width: 850px) {
+    .modal {
+        padding: 20px;
+    }
+
+    /* Modal Content */
+    .modal-content {
+        width: 35%; 
+    }
+}
+
+@media (min-width: 451px) and (max-width: 550px) {
+    .modal {
+        padding: 50px;
+    }
+
+    /* Modal Content */
+    .modal-content {
+        width: 70%; 
+    }
+}
+
+@media (min-width: 1px) and (max-width: 450px) {
+    .modal {
+        padding: 40px;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+}
